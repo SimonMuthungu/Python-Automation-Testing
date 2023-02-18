@@ -1,3 +1,4 @@
+# using pytest to run the tests
 import math_functions
 
 
@@ -9,3 +10,4 @@ def test_add():
 def test_product():
     assert math_functions.product(4, 5) == 20
     assert math_functions.product(5) == 10
+# both tests passed
